@@ -1,0 +1,124 @@
+.doctor-card,
+.right {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.doctor-card .fav-icon {
+    font-size: 22px;
+    color: #3C79B3;
+}
+
+.doc-img {
+    width: 80px;
+}
+
+.address .icons,
+.about .icons {
+    font-size: 20px;
+}
+
+.address .gallery-imgs {
+    width: 85px;
+}
+
+.comments .comment-imgs {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.comments .date {
+    font-size: smaller;
+}
+
+.b-header {
+    background-color: #3C79B3;
+    color: white;
+    font-size: larger;
+    padding: 15px 10px;
+    margin: 0;
+    border-radius: 7px 7px 0 0;
+}
+.slick-prev::before,
+.slick-next::before{
+    content: none !important;
+}
+
+.data-slide-arrow {
+    color: #3C79B3 !important;
+    font-size: 16px !important;
+    background-color: #eef4fd !important;
+    border-radius: 50% !important;
+    padding: 6px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute !important;
+    transition: 0.3s !important;
+    line-height: normal !important;
+    width: auto !important;
+    height: auto !important;
+    transform: none !important;
+}
+
+.data-slide-arrow.sl-left {
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.data-slide-arrow.sl-right {
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.data-slide-arrow:hover {
+    background-color: #DFEAFB !important;
+    cursor: pointer;
+}
+
+.slick-disabled{
+    display: none !important;
+}
+.date-head{
+    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date-head .day{
+    font-size: 16px;
+    line-height: 15px;
+}
+.date-head .month{
+    font-size: smaller;
+}
+.date-slider p{
+    height: 33px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.available{
+    background-color: #eef4fd;
+    color: #3C79B3;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid #eef4fd;
+    transition: 0.3s;
+    
+}
+.not-available{
+    font-size: 16px;
+    height: 33px;
+    text-decoration: line-through;
+}
+.available:hover{
+    cursor: pointer;
+    background-color: #DFEAFB;
+    border-color: #3C79B3;
+}

@@ -1,0 +1,26 @@
+#DentistBranches{
+    background-image: url(../Assets/img/inner-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#DentistBranches h3{
+    color: white;
+}
+
+.DentistBranches-list img{
+    width: 50px;
+}
+.DentistBranches-list .card{
+    transition: 0.2s;
+}
+.DentistBranches-list .card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.DentistBranches-list .card-title{
+    font-size: 16px;
+}
+.DentistBranches-list .card-subtitle{
+    font-size: 13px;
+}

@@ -1,0 +1,60 @@
+.about-header{
+    padding: 75px 0;
+}
+
+.about-header h3{
+    color: #3B74CF;
+    letter-spacing: 1px;
+}
+
+.about-header p{
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.about-header img{
+    width: 80px;
+}
+
+.aboutus-cards{
+    background-color: #c8d8f5;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+}
+.aboutus-cards h2,
+.aboutus-cards h4{
+    letter-spacing: 1px;
+    line-height: 45px;
+    font-weight: lighter;
+    color: #3B74CF;
+}
+.aboutus-cards img{
+    width: 300px;
+}
+
+.aboutus-cards .card{
+    padding: 20px 15px;
+    
+}
+.aboutus-cards .card .flag-img{
+    width: 65px;
+}
+.aboutus-cards .card .card-title{
+    font-size:1.8461538462em;
+    font-weight: lighter;
+    color: #3B74CF;
+}
+.aboutus-cards .card .card-subtitle{
+    font-weight: lighter;
+}
+
+.aboutus-last{
+    padding: 95px 0;
+    text-align: center;
+}
+.aboutus-last h2{
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}

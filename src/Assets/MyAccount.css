@@ -1,0 +1,32 @@
+
+.my-account{
+    background-color: #eef4fd;
+}
+.my-account .my-data .photo img{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+.my-account .my-data .photo .photo-edit-icon{
+    font-size: 20px;
+    color: darkgray;
+    margin-left: -10px;
+}
+.my-account .my-data .photo .photo-edit-icon:hover{
+    color: gray;
+}
+.my-account .ant-tabs-nav{
+    margin: 0 !important;
+}
+.my-account .ant-tabs-content-holder{
+    background-color: white;
+    border-radius: 0px 5px 5px 5px;
+    padding: 20px;
+}
+
+.anticon {
+    display: flex !important;
+}
+.w-33{
+    width: 33.3%;
+}

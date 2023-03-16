@@ -1,0 +1,19 @@
+#branches{
+    background-image: url(../Assets/img/inner-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#branches h3{
+    color: white;
+}
+.branches-list-container li{
+    line-height: 1.6rem;
+}
+.branches-list-container li a{
+    font-size: 15px;
+    color: rgb(75, 75, 75);
+}
+.branches-list-container li a:hover{
+    color: black;
+    text-decoration: underline !important;
+}

@@ -1,0 +1,74 @@
+#doctors {
+    background-image: url(../Assets/img/inner-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.doctors-left {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.doctors-right {
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+}
+
+.filters,
+.docs {
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px 10px;
+}
+
+#doctors .ant-radio-button-wrapper {
+    width: 44px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.docs {
+    width: 100%;
+    border-bottom: 2px solid #1E689F;
+    transition: 0.2s;
+}
+
+.docs:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.docs img
+ {
+    width: 100px;
+}
+
+.docs .p {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.docs a:hover {
+    color: black !important;
+}
+
+.email-logo {
+    font-size: 17px;
+}
+
+.sk-img{
+    width: 50px;
+}
+.skhover{
+    padding: 10px 0;
+    transition: 0.2s;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.skhover:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
